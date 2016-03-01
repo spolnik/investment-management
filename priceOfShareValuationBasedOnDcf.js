@@ -1,4 +1,4 @@
-var dcf = function(cashFlows, growingAtConstantRate, weightedAverageCostOfCapital, debt, shares) {
+var priceOfShareValuationBasedOnDcf = function(cashFlows, growingAtConstantRate, weightedAverageCostOfCapital, debt, shares) {
 
     var enterpriseValue = 0.0;
 
@@ -28,4 +28,4 @@ var dcf = function(cashFlows, growingAtConstantRate, weightedAverageCostOfCapita
     return priceOfShare.toFixed(2);
 };
 
-module.exports = dcf;
+module.exports = priceOfShareValuationBasedOnDcf;

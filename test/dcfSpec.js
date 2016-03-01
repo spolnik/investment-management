@@ -1,5 +1,5 @@
 var expect = require('chai').expect;
-var dcf = require('../dcfBasedPriceOfShareValuation');
+var dcf = require('../priceOfShareValuationBasedOnDcf');
 
 describe("DCF", function () {
 
