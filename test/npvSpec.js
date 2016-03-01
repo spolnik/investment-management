@@ -9,7 +9,7 @@ describe('NPV', function () {
     ];
 
     tests.forEach(function (test) {
-        it('returns value ' + test.expected + ' for [' + test.cashFlows + '] cashflows, and discount ' + test.discount * 100 + '%', function () {
+        it('returns net present value ' + test.expected + ' for [' + test.cashFlows + '] cashflows, and discount ' + test.discount * 100 + '%', function () {
 
             var npvValue = npv(test.discount, test.cashFlows);
 
